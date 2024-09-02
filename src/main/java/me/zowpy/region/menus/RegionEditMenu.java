@@ -55,7 +55,7 @@ public class RegionEditMenu extends Menu {
                     }
 
                     openMenu(player);
-                });
+                }).start(player);
             }
         });
 
